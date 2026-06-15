@@ -10,6 +10,8 @@
 
 #make
 
+pwd
+
 clang++ -fno-stack-protector -no-pie -O0 \
     -I/usr/include/postgresql challenge_buffer_overflow/vuln_app.cpp \
     -o vuln_app \
